@@ -33,7 +33,7 @@ class nexus {
 
   exec { 'run nexus':
     cwd     => '/home/vagrant/nexus/bin/',
-    command => 'bash nexus run',
+    command => 'bash nexus start',
   }
 
   #exec { 'run-user':
